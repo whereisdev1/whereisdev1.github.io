@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mywebsite</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="mediaqueries.css">
+</head>
+<body>
+    <nav id="desktop-nav">
+        <div class="logo">Bedrock Occupational Therapy</div>
+        <div>
+            <ul class="nav-links">
+                <li><a href="#about">About</a></li>
+                <li><a href="#experience">Experience</a></li>
+                <li><a href="#Therapy Services">Therapy Services</a></li>
+                <li><a href="#Contact Us">Contact Us</a></li>
+            </ul>
+        </div>
+    </nav>
+    <nav id="hamburger-nav">
+       <div class="logo">Bedrock Occupational Therapy</div>
+       <div class="hamburger-menu">
+        <div class="hamburger-icon" onclick="togglemenu( )">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+        <div class="menu-links">
+                <li><a href="#about" onclick="togglemenu( )">About</a></li>
+                <li><a href="#experience" onclick="togglemenu( )">Experience</a></li>
+                <li><a href="#Therapy Services" onclick="togglemenu( )">Therapy Services</a></li>
+                <li><a href="#Contact Us" onclick="togglemenu( )">Contact Us</a></li>
+        </div>
+      </div>
+    </nav>
+    <section id="profile">
+        <div class="section__pic-container">
+            <img src="./assets/profile-pic.png" alt="Hussein Ayache profile picture">
+        </div>
+        <div class="section__text">
+            <p class="section__text__p1">Hello, I'm</p>
+            <h1 class="title">Hussein</h1>
+            <p class="section__text__p2">Paediatric Occupational Therapist</p>
+          <div class="btn-container">
+            <button class="btn btn-color-1" onclick ="location.href='./#contact'">
+            Contact Me
+            </button>
+        </div>
+        <div id="socials-container">
+            <img 
+            src="./assets/linkedin.png" 
+            alt="My LinkedIn profile" 
+            class="icon" 
+            onclick="location.href='https://www.linkedin.com/in/hussein-ayache-a04443212/'"
+            >
+            <img 
+            src="./assets/instagram.png" 
+            alt="My instagram profile" 
+            class="icon" 
+            onclick="location.href='https://www.instagram.com/bedrock.ot/'"
+            >
+          </div>
+        </div>
+    </section>
+    <section id="about">
+        <p class="section__text__p1">Get to know more</p>
+        <h1 class="title">About Me</h1>
+        <div class="section-container">
+            <div class="section__pic-container">
+                <img src="assets/about-pic.png" alt="Profile picture" 
+                class="about-pic"
+                />
+            </div>
+            <div class="about-details-container">
+                <div class="about-containers">
+                    <div class="details-container">
+                        <img 
+                        src="/assets/experience.png" 
+                        alt="experience icon" 
+                        class="icon" 
+                        />
+                        <h3>Experience</h3>
+                        <p>3+ years across multiple organisations, including: 
+                        <br />Autism Australia 
+                        <br />Royal Institude for Deaf and Blind Children (RIDBC)
+                        <br />Westmead Children's Hospital</p>
+                    </div>
+                  <div class="details-container">
+                    <img 
+                    src="/assets/education.png" 
+                    alt="education icon" 
+                    class="icon" 
+                    />
+                    <h3>Education</h3>
+                    <p> Bachelors of Occupational Therapy (Honours)
+                  </div>
+                 </div> 
+                 <div class="text-container">
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Rerum mollitia nihil veritatis quis
+                        placeat officiis illo impedit reiciendis velit magni libero soluta debitis, recusandae nobis 
+                        quas reprehenderit praesentium. Qui voluptates repudiandae quam? Laborum quidem 
+                        laboriosam voluptatum unde optio quaerat blanditiis est, possimus amet suscipit, earum, 
+                        quae pariatur cupiditate asperiores corporis!
+                    </p>
+                </div> 
+            <div>  
+        </div>                    
+        <img src="assets/arrow.png" 
+        alt="arrow icon" 
+        class="icon arrow" 
+        onclick="location.href= './#experience'"
+        />
+    </section>
+ <section id="#experience">
+        <p class="section__text__p1 ">Explore my</p>
+        <h1 class="title">Experience</h1>
+        <div class="experience-details-container">
+        <div class="about-containers">
+            <div class="details-container">
+                <h2 class="experience-sub-title">Expertise Around</h2>
+                <div class="article-container">
+                    <article>
+                        <img 
+                        src="/assets/checkmark.png" 
+                        alt="experience icon" 
+                        class="icon"
+                        />
+                        <div>
+                            <h3>GDD/Autism</h3>
+                        </div>
+                    </article>
+                    <article>
+                        <img 
+                        src="/assets/checkmark.png" 
+                        alt="experience icon" 
+                        class="icon"
+                        />
+                        <div>
+                            <h3>Low Vision & Hearing</h3>
+                        </div>
+                    </article>
+                    <article>
+                        <img 
+                        src="/assets/checkmark.png" 
+                        alt="experience icon" 
+                        class="icon"
+                        />
+                        <div>
+                            <h3>Traumatic Brain Injuries</h3>
+                        </div>
+                    </article>
+                    <article>
+                        <img 
+                        src="/assets/checkmark.png" 
+                        alt="experience icon" 
+                        class="icon"
+                        />
+                        <div>
+                            <h3>Post-surgery (Orthopaedics)</h3>
+                        </div>
+                    </article>
+                    <article>
+                        <img 
+                        src="/assets/checkmark.png" 
+                        alt="experience icon" 
+                        class="icon"
+                        />
+                        <div>
+                            <h3>Genetic disorders (Down syndrome, MPS and Albinism) </h3>
+                        </div>
+                    </article>
+                <div>   
+            </div>
+            <img src="assets/arrow.png" 
+            alt="arrow icon" 
+            class="icon arrow" 
+            onclick="location.href= './#Therapy Services'"
+            />
+   <section>    
+        
+    <section id="Therapy Services">
+             <div class="details-container">
+                <p class="section__text__p1 ">Therapy services</p>
+                <h1 class="title">Offered</h1>
+                <div class="article-container">
+                    <article>
+                        <img 
+                        src="/assets/checkmark.png" 
+                        alt="services icon" 
+                        class="icon"
+                        />
+                        <div>
+                            <h3>Individual Therapy</h3>
+                        </div>
+                    </article>
+                    <article>
+                        <img 
+                        src="/assets/checkmark.png" 
+                        alt="services icon" 
+                        class="icon"
+                        />
+                        <div>
+                            <h3>Equipment prescription and trials</h3>
+                        </div>
+                    </article>
+                    <article>
+                        <img 
+                        src="/assets/checkmark.png" 
+                        alt="services icon" 
+                        class="icon"
+                        />
+                        <div>
+                            <h3>Detailed NDIS functional sssessments</h3>
+                        </div>
+                    </article>
+                    <article>
+                        <img 
+                        src="/assets/checkmark.png" 
+                        alt="services icon" 
+                        class="icon"
+                        />
+                        <div>
+                            <h3>Presentations & Workshops</h3>
+                        </div>
+                    </article>
+                    <article>
+                        <img 
+                        src="/assets/checkmark.png" 
+                        alt="services icon" 
+                        class="icon"
+                        />
+                        <div>
+                            <h3>Other stuff </h3>
+                        </div>
+                    </article>
+                </div>
+           </div>    
+        <Section>
+    <script src="script.js"></script>
+</body>
+</html>
