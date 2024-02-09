@@ -149,7 +149,7 @@ a:hover {
 
 section {
     padding-top: 4vh;
-    height: 96vh;
+    height: 76vh;
     margin: 0 10rem;
     box-sizing: border-box;
     min-height: fit-content;
@@ -288,14 +288,14 @@ flex-direction: column;
 }
 
 .section-container {
-    gap: 4rem;
-    height: 80%;
+    gap: 10rem;
+    height: 45%;
 }
 
-.section-pic-container {
+.section__pic-container {
     height: 400px;
     width: 400px;
-    margin: auto;
+    margin: auto 0;
 }
 
 /* EXPERIENCE SECTION */
@@ -335,4 +335,69 @@ article {
 
 article.icon { 
     cursor: default;
+}
+
+/* THERAPY SERVICES */
+
+#Therapy-Services {
+    position: relative;
+}
+
+.section__text__p1 {
+    color: rgb(85, 85, 85);
+    font-weight: 600;
+    font-size: 1.75rem;
+    margin-bottom: 2rem;
+}
+
+/* CONTACT */
+
+#Contact {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    height: 70vh;
+}
+
+.contact-info-upper-container {
+    display: flex;
+    justify-content: center;
+    border-radius: 2rem;
+    border: rgb(53, 53, 53) 0.1rem solid;
+    border-color: rgb(163, 163, 163);
+    background: rgb(250, 250, 250);
+    margin: 2rem auto;
+    padding: 0.5rem;
+}
+
+.contact-info-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.5rem;
+    margin: 1rem;
+}
+
+.contact-info-container p {
+    font-size: larger;
+    
+}
+
+.contact-icon {
+    cursor: default;
+}
+
+.email-icon {
+    height: 2.5rem;
+}
+
+/* FOOTER */
+
+footer {
+    height: 2vh;
+    margin: 0 1rem;
+}
+
+footer p {
+    text-align: center;
 }
