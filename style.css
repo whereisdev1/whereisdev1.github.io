@@ -287,6 +287,15 @@ flex-direction: column;
     text-align: center;
 }
 
+.details-container ul {
+    margin: 10px auto;
+    width: 80%;
+}
+
+.details-container li {
+    text-align: left;
+}
+
 .section-container {
     gap: 10rem;
     height: 45%;
